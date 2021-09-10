@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-6 | Asper </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class=" container navbar navbar-expand-lg navbar-light bg-white p-4">
+            <a class="navbar-brand fw-bold" href="#">SB UI Kit Pro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link" href="#">Landing<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages</a>
+                        <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+                            <div class="head-box my-3 d-flex justify-content-between">
+                                <div class="main-box mx-5 w-100">
+                                    <div class="box mb-4 mx-2">
+                                        <h5 class="text-uppercase">company</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">basic pages</a></li>
+                                            <li><a href="" class="text-dark">about</a></li>
+                                            <li><a href="" class="text-dark">pricing</a></li>
+                                            <li><a href="" class="text-dark">contact</a></li>
+                                            <li><a href="" class="text-dark">teams</a></li>
+                                            <li><a href="" class="text-dark">terms</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="box mx-2">
+                                        <h5 class="text-uppercase">support</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">help center</a></li>
+                                            <li><a href="" class="text-dark">knowledge base</a></li>
+                                            <li><a href="" class="text-dark">message center</a></li>
+                                            <li><a href="" class="text-dark">support ticket</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main-box mx-5 w-100">
+                                    <div class="box mb-4 mx-2">
+                                        <h5 class="text-uppercase">careers</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">careers list</a></li>
+                                            <li><a href="" class="text-dark">positions details</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="box mb-4 mx-2">
+                                        <h5 class="text-uppercase">blog</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">overview</a></li>
+                                            <li><a href="" class="text-dark">post</a></li>
+                                            <li><a href="" class="text-dark">archieve</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="box mx-2">
+                                        <h5 class="text-uppercase">portfolio</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">grid</a></li>
+                                            <li><a href="" class="text-dark">large grid</a></li>
+                                            <li><a href="" class="text-dark">masonry</a></li>
+                                            <li><a href="" class="text-dark">case study</a></li>
+                                            <li><a href="" class="text-dark">project</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main-box mx-5 w-100">
+                                    <div class="box mx-2">
+                                        <h5 class="text-uppercase">errors</h5>
+                                        <ul class="text-capitalize text-dark">
+                                            <li><a href="" class="text-dark">400 error</a></li>
+                                            <li><a href="" class="text-dark">401 error</a></li>
+                                            <li><a href="" class="text-dark">402 error</a></li>
+                                            <li><a href="" class="text-dark">403 error</a></li>
+                                            <li><a href="" class="text-dark">404 error(option 1)</a></li>
+                                            <li><a href="" class="text-dark">404 error(option 2)</a></li>
+                                            <li><a href="" class="text-dark">405 error</a></li>
+                                            <li><a href="" class="text-dark">406 error</a></li>
+                                            <li><a href="" class="text-dark">407 error</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Documentation
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <div class="d-flex align-items-center justify-content-center p-2">
+                                <i class=" nav-icons fa fa-book" aria-hidden="true"></i>
+                                <a class="dropdown-item" href="#"><span
+                                        style="font-size: 0.8rem; color:grey;">Documentation</span><br>Usage refrence
+                                    and Instructions</a>
+                            </div>
+                            <div class="dropdown-divider"> </div>
+                            <div class="d-flex align-items-center justify-content-center p-2">
+                                <i class="nav-icons fa fa-code" aria-hidden="true"></i>
+                                <a class="dropdown-item" href="#"><span
+                                        style="font-size: 0.8rem;color:grey;">Develop</span><br>Create a Landing
+                                    page</a>
+                            </div>
+                            <div class="dropdown-divider"> </div>
+                            <div class="d-flex align-items-center justify-content-center p-2">
+                                <i class="nav-icons fa fa-file-o" aria-hidden="true"></i>
+                                <a class="dropdown-item" href="#"><span
+                                        style="font-size: 0.8rem;color:grey;">Changelog</span><br>Update and Changes</a>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Buy Now &#8594; </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container py-5 text-center">
+        <img src="avatar.png">
+        <h2>Welcome to my portfolio !</h2>
+        <p class="w-50 mx-auto py-2">I am a Web Developer, and UI designer specializing in modern,
+            creative design based in
+            Bhopal, MP</p>
+    </div>
+
+
+
+    <div class="container-fluid  text-center container1 pt-5" style="background-color: rgb(204, 239, 253);">
+
+        <div class="container  pt-5  ">
+            <div class="row pt-5">
+                <div class="col-12  col-sm-4 col-md-4 col-lg-4 ">
+                    <div class="card p-2" style="background-color: rgb(204, 239, 253); border: none;">
+                        <i class="fa fa-laptop text-center rounded-circle p-4 bg-primary  mx-auto"
+                            aria-hidden="true"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-dark" style="font-size: 1.4rem;">Web-Dev (MERN)</h5>
+                            <p class="card-text">I develop custom web-pages and web-services for contract clients</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card p-2" style="background-color:rgb(204, 239, 253);
+                    border: none;">
+                        <i class="fa fa-sticky-note-o text-center rounded-circle p-4 bg-warning  mx-auto"
+                            aria-hidden="true"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-dark" style="font-size: 1.4rem;">UI Design</h5>
+                            <p class="card-text">User experience and interface designs is one of my specialties</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card p-2" style="background-color:rgb(204, 239, 253);
+                    border: none;">
+                        <i class="fa fa-camera text-center rounded-circle p-4 bg-danger  mx-auto"
+                            style="font-size: 1.9rem;" aria-hidden="true"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-dark" style="font-size: 1.4rem;">PhotoGraphy</h5>
+                            <p class="card-text">Potraits,shoots,post processing and other photo services</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid1 pt-5">
+
+        <div class="container pt-5 text-center">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-4">
+                    <div class="hero p-0">
+                        <img src="gallery/book.jpg" class="img-fluid   ">
+                        <div class="overlay text-center m-auuto ">
+                            <h4>Book</h4>
+                        </div>
+                     
+                    </div>
+                    <div class="hero ">
+                        <img src="gallery/hands-hand-book-reading.jpg" class="img-fluid ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Reading</h4>
+                        </div>
+                    </div>
+                    <div class="hero  ">
+                        <img src="gallery/cactus.jfif" class="img-fluid ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Cactus</h4>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-4">
+                    <div class="hero ">
+                        <img src="gallery/flower in hand.jpg" class="img-fluid ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Flower</h4>
+                        </div>
+                    </div>
+                    <div class="hero  ">
+                        <img src="gallery/whitebook.jpg" class="img-fluid   ">
+                        <div class="overlay text-center m-auto">
+                            <h4>WhiteBook</h4>
+                        </div>
+                    </div>
+                    <div class="hero ">
+                        <img src="gallery/image.jpg" class="img-fluid  ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Photoface</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-4">
+                    <div class="hero">
+                        <img src="gallery/catalogue.jpg" class="img-fluid   ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Catalogue</h4>
+                        </div>
+                    </div>
+                    <div class="hero ">
+                        <img src="gallery/notebook.jpg" class="img-fluid   ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Notebook</h4>
+                        </div>
+                    </div>
+                    <div class="hero ">
+                        <img src="gallery/Photoface.jpg" class="img-fluid   ">
+                        <div class="overlay text-center m-auto">
+                            <h4>Picture</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid container1 text-center pt-5 " style="background-color: rgb(204, 239, 253);">
+
+
+        <div class="container2 pt-4 text-center ">
+            <h3 class="pt-5">Contact me</h3>
+            <p class="text-dark">I am available for contract work, when you're ready - let me know!</p>
+            <div class="row py-5 text-center mx-auto">
+                <div class=" cards col-12  col-sm-6 col-md-6 col-lg-6  ">
+                    <div class="card p-3 card-shadow w-100 h-100">
+                        <i class="fa fa-envelope-o text-center rounded-circle p-4 bg-danger  mx-auto"
+                            aria-hidden="true"></i>
+                        <div class="card-body text-center text-primary">
+                            <p>mepiyusht@gmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" cards col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="card p-3 card-shadow w-100 h-100 ">
+                        <i class="fa fa-tablet text-center rounded-circle p-4 bg-warning  mx-auto"
+                            aria-hidden="true"></i>
+                        <div class="card-body text-center text-dark">
+                            +91-8103595203
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid1  bg-dark text-light   p-5">
+ <br><br><br><br><br>
+
+        <div class="container  footer p-1">
+            <div class="row mx-auto  pt-5">
+                <div class="col-12 col-md-4 col-sm-4 col-lg-3 text-capitalize" style="color:rgb(194, 191, 191);">
+                    <h3>SB UI Kit Pro</h3>
+                    <p>Built Better Websites</p>
+                    <div class="icons">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 col-sm-4 text-capitalize ">
+                    <h5>PRODUCT</h5>
+                    <ul class="py-2">
+                        <li><a href="">landings</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">section</a></li>
+                        <li><a href="">documentation</a></li>
+                        <li><a href="">changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2 col-md-4 col-sm-4 text-capitalize">
+                    <h5>TECHNICAL</h5>
+                    <ul class="py-2">
+
+                        <li><a href="">documentation </a></li>
+                        <li><a href="">changelog</a></li>
+                        <li><a href="">UI Kit</a></li>
+                        <li><a href="">theme</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 col-sm-4 text-capitalize">
+                    <h5>INCLUDES</h5>
+                    <ul class="py-2">
+                        <li><a href="">utilies</a></li>
+                        <li><a href="">components</a></li>
+                        <li><a href="">layouts</a></li>
+                        <li><a href="">code samples</a></li>
+                        <li><a href="">products</a></li>
+                        <li><a href="">affilate</a></li>
+                        <li><a href="">updates</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-4 text-capitalize">
+                    <h5>LEGAL</h5>
+                    <ul class="py-2">
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">terms and conditions</a></li>
+                        <li><a href="">licence</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr style="background-color:rgb(206, 206, 206);">
+            <div class="container-last">
+
+
+                <p class="float-left" style="color:rgb(206, 206, 206);">Copyright © Your Website 2021</p>
+                <p class="float-left" style="color:rgb(206, 206, 206);">Privacy-policy . Terms&Conditions</p>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
